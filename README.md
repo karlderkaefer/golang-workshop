@@ -1,23 +1,26 @@
 # Project: Gopher Adventure Game
 
+![](./images/gopher.png)
+
 Objective: In this workshop, participants will build a text-based adventure game featuring a Gopher exploring a mysterious world. Each chapter will focus on different aspects of the game, and participants will apply the concepts learned in each chapter to enhance the game.
 
-
-## Chapter 1: Data Types in Golang
+## Chapter 1: Data Types in Golang - Creating the Game World
 
 * Create basic game components using Golang's data types, such as characters, items, and locations.
+* Implement the `createForestLocation` and `createVillageLocation` functions to create initial locations for the game world.
 * Define structs to represent game entities like the player, enemies, and items.
 * Use maps to store the relationships between different game locations.
 
-## Chapter 2: Control Structures and Functions
+## Chapter 2: Building the World Map and Game Mechanics
 
-* Implement the game's basic logic using control structures like if statements, for loops, and switch statements.
-* Create functions to handle player actions, such as moving, interacting with objects, and combat.
+* Implement the `createWorldMap` function to connect Forest and Village locations.
+* Create functions to handle player actions, such as moving and interacting with objects.
+* Implement basic combat mechanics for the player and enemies.
 
-## Chapter 3: Structs, Composition, and Design Patterns
+## Chapter 3: Expanding the Game World and Adding Inventory
 
-Use composition to create complex game entities from simpler components.
-Implement common design patterns in the game, such as the Singleton pattern for the game engine and the Observer pattern for event handling.
+* Implement the `createCaveLocation` and `createCastleLocation` functions to add new locations to the game world.
+* Implement inventory functions to allow the player to pick up and use items.
 
 ## Chapter 4: Interfaces and Polymorphism
 
@@ -39,13 +42,11 @@ Implement common design patterns in the game, such as the Singleton pattern for 
 * Write unit tests for various game components and logic, ensuring that the game functions as expected.
 * Use mocking to isolate parts of the game for testing, such as replacing real game entities with mock versions.
 
-Chapter 8: Packaging and Deployment
-
+## Chapter 8: Packaging and Deployment
 * Organize the game code into packages for easier management and maintainability.
 * Learn how to build and deploy the game, allowing others to play and enjoy the Gopher Adventure.
 
 ## Teaser
-
 Throughout the workshop, participants will build and improve the Gopher Adventure game, applying the concepts they learn in each chapter to create a fun and entertaining project. Encourage participants to be creative and add their unique ideas to the game, making it a truly collaborative and enjoyable learning experience.
 
 ## Question
